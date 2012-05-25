@@ -224,7 +224,7 @@ Il faut nécessairement persister en base explicitement l'ingrédient que l'on veu
     }
 </pre>
 
-Il faut écrire une requête JPQL pour récupérer
+Il faut écrire une requête JPQL pour récupérer la Recette dans son intégralité, si on veut par exemple la serialiser après (certaines relations avaient été mises en LAZY, notamment sur la PK).
 <pre lang="java">
         Query q = getEntityManager().createQuery(
                 "select r from Recipe as r "
