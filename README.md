@@ -9,7 +9,7 @@ L'idée générale est de découper le many to many en deux relations many-to-one/on
 <strong>NB</strong>: je me sers de <a href="http://projectlombok.org/">lombok </a> pour générer les getter, setter et equals/hashcode de mes classes.
 
 La classe Recipe:
-<prelang="java">
+<pre lang="java">
 package fr.valtech.many2many.domain;
 
 import java.util.HashSet;
